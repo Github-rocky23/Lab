@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	</head>
+	<body ng-app="" ng-init="first=6; second=2">
+    		<h2>Simple Calculation</h2>
+    		First Number: <input type="number" ng-model="first">
+    		<br>
+    		Second Number: <input type="number" ng-model="second">
+    		<br>
+    		<b>Arithmetical Operations</b>
+    		<p><b>Addition:</b> {{first + second}}</p>
+    		<p><b>Subtraction:</b> {{first - second}}</p>
+    		<p><b>Multiplication:</b> {{first * second}}</p>
+    		<p><b>Division:</b> {{first / second }}</p>
+	</body>
+</html>
